@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="Menu"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/ic_saved"
+            android:title="Saved"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Account"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_agents"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="Agents"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            android:iconTint="@android:color/white"/>
+
+    </group>
+
+
+</menu>
