@@ -44,7 +44,8 @@ public class SignIn extends AppCompatActivity {
         startActivityForResult(
                 AuthUI.getInstance()
                         .createSignInIntentBuilder()
-                        .setLogo(R.drawable.background)
+                        .setTheme(R.style.signInTheme)
+                        .setLogo(R.drawable.ic_logo_24dp)
                         .setAvailableProviders(providers)
                         .build(),
                 RC_SIGN_IN);
