@@ -22,7 +22,7 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="16dp"
                 android:layout_marginTop="48dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/ic_logo_24dp"/>
 
             <EditText
@@ -93,6 +93,7 @@
                 android:padding="16dp"
                 android:clickable="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:textStyle="bold"
                 android:textColor="#7b0408"
                 style="@style/Base.TextAppearance.AppCompat.Body1"
