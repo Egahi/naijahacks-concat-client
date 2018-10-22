@@ -46,6 +46,7 @@ public class SignIn extends AppCompatActivity {
                         .createSignInIntentBuilder()
                         .setTheme(R.style.signInTheme)
                         .setLogo(R.drawable.ic_logo_24dp)
+                        .setIsSmartLockEnabled(false)
                         .setAvailableProviders(providers)
                         .build(),
                 RC_SIGN_IN);
