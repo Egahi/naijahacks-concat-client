@@ -22,6 +22,8 @@ import com.example.kpose.letty.Interface.ItemClickListener;
 import com.example.kpose.letty.Model.Category;
 import com.example.kpose.letty.ViewHolder.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
@@ -45,12 +47,9 @@ public class Home extends AppCompatActivity
         toolbar.setTitle("Menu");
         setSupportActionBar(toolbar);
 
-
         //Init Firebase
         database =  FirebaseDatabase.getInstance();
         category = database.getReference("Category");
-
-
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -62,22 +61,24 @@ public class Home extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
-        //Set name for user
+        // Set name for user
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         View headerView = navigationView.getHeaderView(0);
         txtFullName = headerView.findViewById(R.id.txtFullName);
-        txtFullName.setText(Common.currentUser.getName());
+
+        if (user != null) {
+            txtFullName.setText(user.getDisplayName());
+        } else {
+            txtFullName.setText("");
+        }
 
         //Load Menu
-
         recycler_menu = findViewById(R.id.recycler_menu);
         recycler_menu.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recycler_menu.setLayoutManager(layoutManager);
 
         loadMenu();
-
-
     }
 
     private void loadMenu() {
