@@ -1,6 +1,6 @@
 # naijahacks-concat-client
 
-Letty Android Application
+## Letty Android Application
 
 Letty Android App is a project by naijahacks-concat to help students in higher institutions find apartments, hostels and room-mates with ease. Read full story at https://devpost.com/software/letty
 
