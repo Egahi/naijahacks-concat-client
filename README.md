@@ -29,7 +29,7 @@ Built With
 
 Team Members
 
-https://github.com/***** - Jude Richard
+https://github.com/kpose - Jude Richard
 
 https://github.com/Egahi - Samuel Egahi
 
