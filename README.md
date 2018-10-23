@@ -1,8 +1,8 @@
-# naijahacks-concat-admin
+# naijahacks-concat-client
 
 Letty Android Application
 
-Letty Android App is a project by naijahacks-concat to help students in higher institutions find apartments, hostels and room-mates with ease.
+Letty Android App is a project by naijahacks-concat to help students in higher institutions find apartments, hostels and room-mates with ease. Read full story at https://devpost.com/software/letty
 
 
 Getting Started
@@ -31,9 +31,9 @@ Team Members
 
 https://github.com/kpose - Jude Richard
 
-https://github.com/Egahi - Samuel Egahi
+https://github.com/egahi - Samuel Egahi
 
-https://github.com/Drgleave - Damian Tochukwu
+https://github.com/drgleave - Damian Tochukwu
 
 
 
@@ -44,5 +44,3 @@ King Uchi
 Oluwadamilola Soyombo
 
 Blessing Thomas
-
-Contributors
