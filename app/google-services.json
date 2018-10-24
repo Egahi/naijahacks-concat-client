@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137523713166",
+    "firebase_url": "https://letty-dc9f7.firebaseio.com",
+    "project_id": "letty-dc9f7",
+    "storage_bucket": "letty-dc9f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137523713166:android:7bfda7ec11181047",
+        "android_client_info": {
+          "package_name": "com.example.kpose.letty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137523713166-i6bdqrpp8068k0111mk1d8eeouo25k0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kpose.letty",
+            "certificate_hash": "2ca786e15e99e7b86fc6d290f20fa705b645f4c1"
+          }
+        },
+        {
+          "client_id": "137523713166-lei7masqr06054i6emvenavvp0ns0spo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5MQn0vFdQRW9YgdvarA5ROrzViJWto8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137523713166-lei7masqr06054i6emvenavvp0ns0spo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

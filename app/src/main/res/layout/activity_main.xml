@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_logo_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPhone"
+                android:ems="10"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:layout_marginTop="50dp"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+                android:background="@android:color/transparent"
+                android:hint="Phone Number"
+                android:textStyle="bold"
+                android:textColorHint="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:inputType="phone"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPassword"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:hint="*******"
+                android:textColorHint="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/ckbRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                style="@style/Material.Drawable.CheckBox"
+                android:gravity="center_vertical"
+                android:text="Remember Me"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_dark"
+                app:cbd_strokeColor= "@android:color/white"
+                app:cbd_tickColor= "@color/colorPrimaryDark"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSignIn"
+                android:text="Sign In"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#7b0408"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:background="@drawable/background_login"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSignUp"
+                android:text="Sign Up"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:clickable="true"
+                android:padding="16dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:background="@drawable/background_signup"
+                />
+            <TextView
+                android:id="@+id/txtForgotPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_dark"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:padding="16dp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
